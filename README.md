@@ -46,14 +46,19 @@ Se incluye **Dockerfile** para contenerizar la aplicación y un **workflow en Gi
 ### Personas
 
 * `POST /api/personas` → Crear nueva persona
-* `GET /api/buscar/personas` → Listar personas (Paginación)
-* `GET /api/buscar/persona` → Listar persona
+* `POST /api/buscar/personas` → Listar personas (Paginación)
+* `POST /api/buscar/persona` → Listar persona
 * `DELETE /api/personas/eliminar` → Eliminar persona (envía `PersonaResponse` indicando cuál fue eliminada)
 
 ### Facturas
 
 * `POST /api/facturas` → Crear factura
 * `POST /api/facturas/buscar` → Obtener facturas por persona (Paginación)
+
+### Swagger/OpenAPI
+
+* La documentación interactiva se puede acceder en `http://localhost:8080/docs`  
+* Permite probar los endpoints directamente desde el navegador.
 
 ---
 
