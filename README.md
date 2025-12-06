@@ -1,6 +1,6 @@
 # TEST_getTechno
 
-![Build Docker Image](https://github.com/IsmaelPrado/TEST_getTechno/actions/workflows/docker.yml/badge.svg)
+![Build Docker Image](https://github.com/IsmaelPrado/TEST_getTechno/actions/workflows/build-docker.yml/badge.svg)
 
 ## Descripción
 
@@ -120,7 +120,7 @@ El workflow `docker.yml`:
 
 Badge de estado:
 
-![Build Docker Image](https://github.com/IsmaelPrado/TEST_getTechno/actions/workflows/docker.yml/badge.svg)
+![Build Docker Image](https://github.com/IsmaelPrado/TEST_getTechno/actions/workflows/build-docker.yml/badge.svg)
 
 ---
 
